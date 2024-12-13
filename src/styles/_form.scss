@@ -1,0 +1,47 @@
+@use 'variables' as *;
+.formulario{
+
+    h2 {
+        text-align: center;
+        margin-top: $espaciado-muy-grande;
+        margin-bottom: $espaciado-base;
+        font-size: 36px;
+    }
+
+    form {
+        max-width: 50em;
+        margin: $espaciado-base auto;
+        text-align: center;
+        margin-bottom: $espaciado-muy-grande;
+
+        .contenedorinput {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            input{
+                width: 100%;
+                padding: 1.5em;
+                font-size: $fuente-normal;
+                color: black;
+                background: $color-fondo;
+                border-radius: .8rem;
+                margin: $espaciado-base 0;
+                resize: none;
+            }
+        }
+
+        textarea{
+            width: 100%;
+            padding: 1.5em;
+            font-size: $fuente-normal;
+            color: black;
+            background: $color-fondo;
+            border-radius: .8rem;
+            margin: $espaciado-base 0;
+            resize: none;
+        }
+    }
+    
+
+}

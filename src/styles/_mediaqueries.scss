@@ -1,0 +1,289 @@
+@use 'variables' as *;
+
+
+@media (min-width: 1200px) {
+    header {
+        padding: 40px 10%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    .inicio h1 {
+        font-size: 52px;
+    }
+
+    .boton {
+        gap: 2em;
+    }
+
+    .boton-1, .boton-2 {
+        font-size: 18px;
+    }
+
+    .proyectos .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .proyectos .card {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .sobremi .contenidosobremi h3 {
+        font-size: 32px;
+    }
+
+    .sobremi .contenidosobremi p {
+        font-size: $fuente-normal;
+    }
+
+    .sobremi .iconos-tecnologias {
+        gap: 15px;
+    }
+
+    .sobremi .tecnologia i {
+        font-size: 40px;
+    }
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    
+}
+
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    header {
+        padding: 35px 5%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .inicio h1 {
+        font-size: 45px;
+    }
+
+    .inicio p {
+        font-size: 16px;
+    }
+
+    .boton {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .boton-1, .boton-2 {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .proyectos .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .proyectos .card {
+        max-width: 45%;
+    }
+
+    .sobremi .contenidosobremi h3 {
+        font-size: 28px;
+    }
+
+    .sobremi .contenidosobremi p {
+        font-size: 14px;
+    }
+
+    .sobremi .iconos-tecnologias {
+        gap: 10px;
+    }
+
+    .sobremi .tecnologia i {
+        font-size: 35px;
+    }
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .img-container img {
+        width: 70%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 25px 5%;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .navbar {
+        display: none;  
+    }
+
+    .contact {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 30px 5%;
+        gap: 3em;
+    }
+
+    .inicio h1 {
+        font-size: 36px;
+    }
+
+    .inicio p {
+        font-size: 14px;
+    }
+
+    .boton {
+        width: 100%;
+        gap: 1em;
+    }
+
+    .boton-1, .boton-2 {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .img-container img {
+        width: 90%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .proyectos .cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .proyectos .card {
+        max-width: 100%;
+    }
+
+    .sobremi .contenidosobremi h3 {
+        font-size: 24px;
+    }
+
+    .sobremi .contenidosobremi p {
+        font-size: 12px;
+    }
+
+    .sobremi .iconos-tecnologias {
+        gap: 8px;
+    }
+
+    .sobremi .tecnologia i {
+        font-size: 30px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li {
+        padding: 10px;
+    }
+
+    footer .copy {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .contact {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .inicio h1 {
+        font-size: 30px;
+    }
+
+    .inicio p {
+        font-size: 12px;
+    }
+
+    .boton-1, .boton-2 {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .sobremi .contenidosobremi h3 {
+        font-size: 22px;
+    }
+
+    .sobremi .contenidosobremi p {
+        font-size: 10px;
+    }
+
+    .sobremi .iconos-tecnologias {
+        gap: 5px;
+    }
+
+    .sobremi .tecnologia i {
+        font-size: 28px;
+    }
+
+    footer .copy {
+        font-size: 8px;
+    }
+}
